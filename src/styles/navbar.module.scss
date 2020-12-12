@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@mixin flexmixin($direction,$content) {
+    display: flex;
+    justify-content: $content;
+    align-items: center;
+    flex-direction: $direction;
+}
+@mixin link($color){
+      a{
+        color:$color;
+        font-size: 1.1rem;
+        transition: color 650ms;
+        padding: 0 1rem;
+    };
+    a:hover{
+        color: #0091D5;
+    }
+}
+.root_container{
+    background-color:#000;
+    position: sticky;
+    top: 0;
+}
+.root{
+    @include flexmixin(row, space-around);
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo_container{
+    width: 100%;
+    a{
+        font-family: 'Carter One', cursive;
+        font-size: 2.4rem;
+        color: #0091D5;
+        padding: 0 1rem;
+    }
+}
+.link_container{
+    @include flexmixin(row, space-around);
+    width: 100%;
+    @include link(white);
+    // "&:hover":{
+
+    //     color: #0091D5;
+    // };
+    @media (max-width:760px){
+        display: none;
+    }
+}
+.menu_container{
+display: none;
+padding: 0 .5rem;
+    @media (max-width:760px){
+        display: block;
+    }
+ 
+}
+.mobile_link_container{
+        min-width: 280px;
+        @include flexmixin(column, center);
+        @include link(black);
+        a{
+            font-size: 1rem;
+            padding: .5rem 2rem;
+            @include flexmixin(row, center)
+        }
+        hr{
+            width: 100%;
+            color: rgb(206, 206, 206);
+        }
+        p{
+            font-size: .8rem;
+        }
+}
+.icon{
+    padding: 0 .4rem;
+}
