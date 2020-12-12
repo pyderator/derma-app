@@ -1,2 +1,1 @@
-# derma-app
-Repository for the Derma Hospital ( Grand Skin Care Center )
+Repository For The Derma Hospital (Grand Skin Care Center)
