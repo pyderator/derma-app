@@ -31,7 +31,10 @@ const Navbar = () => {
         </div>
         <div className={classes.menu_container}>
           <IconButton aria-label="" onClick={() => setOpen(!open)}>
-            <Menu fontSize="large" style={{ color: "#fff" }} />
+            <Menu
+              fontSize="large"
+              style={{ color: "#fff", fontSize: "4rem" }}
+            />
           </IconButton>
           <SwipeableDrawer
             open={open}

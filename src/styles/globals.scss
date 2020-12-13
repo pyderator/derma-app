@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-$FontFamily: 'Lato', sans-serif;
-
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+$FontFamily: "Lato", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
 html,
 body {
   padding: 0;
@@ -19,6 +24,6 @@ a {
 }
 
 // overwritting some of MUI CSS
-.MuiPaper-root{
+.MuiPaper-root {
   justify-content: center;
 }
