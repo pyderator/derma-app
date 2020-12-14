@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
   @media (max-width: 480px) {
     height: calc(100% + 100px);
@@ -38,7 +38,7 @@
 .header_container {
   p,
   span {
-    font-size: 8rem;
+    font-size: 7rem;
     color: rgb(77, 77, 77);
     @media (max-width: 1200px) {
       font-size: 7rem;
@@ -59,7 +59,7 @@
   p {
     font-size: 2rem;
     font-weight: 200;
-    color: rgb(128, 128, 128);
+    color: rgb(70, 70, 70);
     word-spacing: 5px;
     line-height: 3rem;
     @media (max-width: 760px) {
@@ -83,13 +83,6 @@
       @media (max-width: 760px) {
         font-size: 1.5rem;
       }
-    }
-  }
-  button:hover {
-    span {
-      // background-color: #fff;
-      background: #fff;
-      color: #000;
     }
   }
 }

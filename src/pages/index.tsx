@@ -3,6 +3,7 @@ import Layout from "../layout/layout";
 import classes from "../styles/Home.module.scss";
 import Image from "next/image";
 import Button from "@material-ui/core/Button";
+import Services from "../components/services";
 export default function Home() {
   return (
     <Layout>
@@ -17,7 +18,7 @@ export default function Home() {
             alt="Hero Image"
             className={classes.image}
             width="600px"
-            height="600px"
+            height="700px"
           />
         </div>
         <div className={classes.content_container}>
@@ -43,6 +44,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <Services />
     </Layout>
   );
 }
