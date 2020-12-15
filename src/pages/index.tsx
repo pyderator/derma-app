@@ -4,6 +4,7 @@ import classes from "../styles/Home.module.scss";
 import Image from "next/image";
 import Button from "@material-ui/core/Button";
 import Services from "../components/services";
+import Team from "../components/team";
 export default function Home() {
   return (
     <Layout>
@@ -45,6 +46,7 @@ export default function Home() {
         </div>
       </main>
       <Services />
+      <Team />
     </Layout>
   );
 }
