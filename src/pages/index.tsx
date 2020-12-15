@@ -5,6 +5,7 @@ import Image from "next/image";
 import Button from "@material-ui/core/Button";
 import Services from "../components/services";
 import Team from "../components/team";
+import Review from "../components/review";
 export default function Home() {
   return (
     <Layout>
@@ -47,6 +48,7 @@ export default function Home() {
       </main>
       <Services />
       <Team />
+      <Review />
     </Layout>
   );
 }
