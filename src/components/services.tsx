@@ -43,7 +43,7 @@ const Services = () => {
         </div>
         <div className={classes.root_container_image}>
           {/* For the image */}
-          <Image src="/Images/doctor.png " height="1000px" width="1000px" />
+          <Image src="/Images/doctor.png " height="650px" width="733px" />
         </div>
         <div className={classes.root_container_right}>
           <div>
