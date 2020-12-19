@@ -26,7 +26,6 @@ const Navbar = () => {
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/about">Service</Link>
-          <Link href="/about">Pricing</Link>
           <Link href="/about">Contact</Link>
         </div>
         <div className={classes.menu_container}>
@@ -59,12 +58,6 @@ const Navbar = () => {
                 <a>
                   <RoomService className={classes.icon} fontSize="large" />
                   Service
-                </a>
-              </Link>
-              <Link href="/about">
-                <a>
-                  <AttachMoney className={classes.icon} fontSize="large" />{" "}
-                  Pricing
                 </a>
               </Link>
               <Link href="/about">

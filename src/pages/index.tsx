@@ -6,6 +6,7 @@ import Button from "@material-ui/core/Button";
 import Services from "../components/services";
 import Team from "../components/team";
 import Review from "../components/review";
+import Contact from "../components/contact";
 export default function Home() {
   return (
     <Layout>
@@ -49,6 +50,7 @@ export default function Home() {
       <Services />
       <Team />
       <Review />
+      <Contact />
     </Layout>
   );
 }

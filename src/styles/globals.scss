@@ -15,7 +15,6 @@ body {
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
@@ -26,4 +25,20 @@ a {
 // overwritting some of MUI CSS
 .MuiPaper-root {
   justify-content: center;
+}
+
+.MuiInputBase-input,
+.MuiInput-input {
+  font-size: 1.6rem;
+}
+
+.MuiInput-root {
+  font-size: 1.6rem !important;
+}
+
+.MuiButton-label {
+  font-size: 1.6rem !important;
+}
+.MuiFormLabel-root {
+  font-size: 1.5rem !important;
 }
